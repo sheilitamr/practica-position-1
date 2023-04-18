@@ -31,3 +31,73 @@ body {
   font-family: sans-serif;
   background-color: #0c122c;
 }
+.container {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+}
+.container__image {
+  position: absolute;
+  top: 380px;
+}
+.card {
+  position: absolute;
+  background-color: #1d2c67;
+  width: 350px;
+  height: 201px;
+  border-radius: 10px 100px 10px 10px;
+  top: 289px;
+  left: 260px;
+}
+.card__logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.card__icon {
+  position: absolute;
+  top: 110px;
+  border-radius: 10px;
+  background-color: #0c122c;
+  padding: 8px;
+}
+.card__icon-document {
+  left: 40px;
+  width: 33px;
+}
+.card__icon-folder {
+  left: 90px;
+  width: 40px;
+}
+.card__icon-upload {
+  left: 145px;
+  width: 45px;
+}
+
+.card__storage {
+  position: absolute;
+  background-color: #1d2c67;
+  width: 540px;
+  height: 154px;
+  border-radius: 10px;
+  top: 336px;
+  left: 640px;
+}
+.card__progress {
+  position: absolute;
+  border-radius: 10px;
+  background-color: #0c122c;
+  width: 459px;
+  height: 20px;
+  left: 40px;
+  top: 72px;
+}
+.card__loading {
+  position: absolute;
+  border-radius: 8px;
+  background-color: blueviolet;
+  width: 339px;
+  height: 14px;
+  top: 3px;
+  left: 3px;
+}
