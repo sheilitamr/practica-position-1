@@ -28,13 +28,15 @@ a {
 
 body {
   margin: 0;
-  font-family: sans-serif;
   background-color: #0c122c;
+  font-family: 'Raleway', sans-serif;
 }
 .container {
   position: relative;
   width: 1440px;
   height: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container__image {
   position: absolute;
@@ -43,6 +45,8 @@ body {
 .card {
   position: absolute;
   background-color: #1d2c67;
+}
+.card-folder {
   width: 350px;
   height: 201px;
   border-radius: 10px 100px 10px 10px;
@@ -74,9 +78,7 @@ body {
   width: 45px;
 }
 
-.card__storage {
-  position: absolute;
-  background-color: #1d2c67;
+.card-storage {
   width: 540px;
   height: 154px;
   border-radius: 10px;
@@ -92,12 +94,31 @@ body {
   left: 40px;
   top: 72px;
 }
+.card__text {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+.card__text--bold {
+  font-weight: 700;
+}
 .card__loading {
   position: absolute;
   border-radius: 8px;
-  background-color: blueviolet;
+  background-color: #d765f1;
   width: 339px;
   height: 14px;
   top: 3px;
   left: 3px;
+}
+
+.card__start {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.card__end {
+  position: absolute;
+  top: 90px;
+  right: 40px;
 }

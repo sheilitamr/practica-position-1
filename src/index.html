@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+
     <title>Práctica position 1</title>
   </head>
   <body>
@@ -15,32 +22,36 @@
         alt="background image"
         class="container__image"
       />
-    </div>
-    <div class="card">
-      <img src="assets/images/logo.svg" alt="logo fylo" class="card__logo" />
-      <img
-        src="assets/images/icon-document.svg"
-        alt="icono documento"
-        class="card__icon card__icon-document"
-      />
-      <img
-        src="assets/images/icon-folder.svg"
-        alt="icono carpeta"
-        class="card__icon card__icon-folder"
-      />
-      <img
-        src="assets/images/icon-upload.svg"
-        alt="icono subida"
-        class="card__icon card__icon-upload"
-      />
-    </div>
-    <div class="card card__storage">
-      <p class="card__text">You’ve used 815 GB of your storage</p>
-      <div class="card__progress">
-        <div class="card__loading"></div>
+
+      <div class="card card-folder">
+        <img src="assets/images/logo.svg" alt="logo fylo" class="card__logo" />
+        <img
+          src="assets/images/icon-document.svg"
+          alt="icono documento"
+          class="card__icon card__icon-document"
+        />
+        <img
+          src="assets/images/icon-folder.svg"
+          alt="icono carpeta"
+          class="card__icon card__icon-folder"
+        />
+        <img
+          src="assets/images/icon-upload.svg"
+          alt="icono subida"
+          class="card__icon card__icon-upload"
+        />
       </div>
-      <p class="card__gb">0 GB</p>
-      <p class="card__gb">100 GB</p>
+      <div class="card card-storage">
+        <p class="card__text">
+          You’ve used <span class="card__text--bold">815 GB </span> of your
+          storage
+        </p>
+        <div class="card__progress">
+          <div class="card__loading"></div>
+        </div>
+        <p class="card__start">0 GB</p>
+        <p class="card__end">100 GB</p>
+      </div>
     </div>
   </body>
 </html>
